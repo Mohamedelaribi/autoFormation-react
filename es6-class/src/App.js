@@ -5,11 +5,11 @@ import './App.css';
 export default function Car() {
   
   // class example
-  // class Car {
-  //   constructor(name) {
-  //     this.brand = name;
-  //   }
-  // }
+  class Car {
+    constructor(name) {
+      this.brand = name;
+    }
+  }
   
   // const mycar = new Car("Ford");
   
