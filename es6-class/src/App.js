@@ -1,25 +1,56 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+export default function Car() {
+  
+  // class example
+  // class Car {
+  //   constructor(name) {
+  //     this.brand = name;
+  //   }
+  // }
+  
+  // const mycar = new Car("Ford");
+  
+  // document.write(mycar.brand);
+
+
+
+  // class Car{
+  //   constructor(name) {
+  //     this.brand =  name;
+  //   }
+  //   myCar() {
+  //     return 'I love my '+this.brand +' car'
+  //   }
+  // }
+  // const mycar = new Car('ford')
+
+  //   document.write(mycar.myCar());
+
+
+  // class Car {
+  //   constructor(name){
+  //     this.brand = name
+  //   }
+  //   present(){
+  //     return 'my car is '+this.brand
+  //       }
+
+  //     }
+  //   class Model extends Car{
+  //     constructor(name, model){
+          
+  //     super(name);
+  //     this.mod= model
+  //     }
+  //     show(){
+  //       return this.present() + ' and model is '+this.mod
+  //     }
+  //     }
+
+  //     const myCar = new Model('mercedes-benz', 'AMG')
+
+  //     document.write(myCar.show());
+    }
